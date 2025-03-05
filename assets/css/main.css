@@ -1883,7 +1883,7 @@ section {
 
 .hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   inset: 0;
 }
@@ -1913,11 +1913,11 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 80px;
+  width: 280px;
   height: 4px;
   background: #2b88c0;
   left: 0;
-  right: 0;
+  right: 50;
   bottom: 0;
   margin: auto;
 }

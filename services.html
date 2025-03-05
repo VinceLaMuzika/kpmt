@@ -93,37 +93,91 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-mountain-city"></i>
-              </div>
-              <h3>Toilet Paper</h3>
-              <p>•	We specialize in manufacturing a diverse range of toilet paper rolls,
-                 catering to customer preferences, whether virgin or recycled. 
-                 Offerings includes 1-Ply & 2-Ply virgin products, 
-                 each customizable to meet specific sheet requirements. </p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i
-                  class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
+         <!-- ======= Services Section ======= -->
+<section id="services" class="services section-bg">
+  <div class="container" data-aos="fade-up">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
-              </div>
-              <h3>Electrical</h3>
-              <p>
-                •	Certificate of compliance
-                •	Electrical installation and repairs
-                •	Generator & change -over installation
-                •	Electrical installation & repairs
-                </p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i
-                  class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
+    <div class="row gy-4">
+
+      <!-- Toilet Paper Manufacturing Service -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-mountain-city"></i>
+          </div>
+          <h3>Toilet Paper Manufacturing</h3>
+          <p>We specialize in producing a variety of toilet paper rolls, including both virgin and recycled options.</p>
+          <a href="javascript:void(0);" class="readmore stretched-link" onclick="toggleDetails('toilet-paper-details')">Learn more <i class="bi bi-arrow-right"></i></a>
+          
+          <!-- Hidden Details -->
+          <div id="toilet-paper-details" class="service-details" style="display: none;">
+            <ul>
+              <li>We offer 1-Ply & 2-Ply virgin products, customizable to different sheet lengths.</li>
+              <li>Additionally, we provide 1-Ply recycled toilet paper, tailored to meet specific customer requirements.</li>
+              <li>Our products are manufactured using sustainable and high-quality materials, ensuring durability and comfort.</li>
+            </ul>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
+      <!-- Electrical Installation & Maintenance Service -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+          </div>
+          <h3>Electrical Installation & Maintenance</h3>
+          <p>Our expertise covers commercial and industrial electrical services with compliance certification.</p>
+          <a href="javascript:void(0);" class="readmore stretched-link" onclick="toggleDetails('electrical-details')">Learn more <i class="bi bi-arrow-right"></i></a>
+          
+          <!-- Hidden Details -->
+          <div id="electrical-details" class="service-details" style="display: none;">
+            <ul>
+              <li>Complete electrical installations and maintenance for commercial and industrial sectors.</li>
+              <li>Issuance of Certificates of Compliance (COC)o ensure adherence to industry regulations.</li>
+              <li>nerator & change-over installationsensuring uninterrupted power supply.</li>
+              <li>Expertise in lighting, wiring solutions, and electrical fault finding & repairs.</li>
+            </ul>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
+      <!-- Artisan Training & Development -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <h3>Artisan Training & Development</h3>
+          <p>We are dedicated to skill enhancement through industry-relevant training programs.</p>
+          <a href="javascript:void(0);" class="readmore stretched-link" onclick="toggleDetails('training-details')">Learn more <i class="bi bi-arrow-right"></i></a>
+          
+          <!-- Hidden Details -->
+          <div id="training-details" class="service-details" style="display: none;">
+            <ul>
+              <li>We collaborate with SETA programscilitate artisan training.</li>
+              <li>We help individuals gain tical skills in electrical installation, maintenance, and manufacturing
+              <li>Our training programs ensure stry compliance and career readiness f trainees.</li>
+            </ul>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
+    </div><!-- End Row -->
+  </div>
+</section><!-- End Services Section -->
+
+<!-- JavaScript for Toggling Details -->
+<script>
+  function toggleDetails(id) {
+    var details = document.getElementById(id);
+    if (details.style.display === "none") {
+      details.style.display = "block";
+    } else {
+      details.style.display = "none";
+    }
+  }
+</script>
 
         
            

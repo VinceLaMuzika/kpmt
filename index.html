@@ -73,16 +73,18 @@
       paper rolls. In addition, we excel in electrical installation and maintenance services, ensuring 
       seamless operations.
     </p>
-    <a href="about.html" class="btn" style="background-color: #EE332D; color: white;" data-aos="fade-up">Learn More</a>
-  </div>
-
-
+    <a href="about.html" class="btn" 
+    style="background: linear-gradient(to right, #2575A6, #32AFE3); border: none; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; border-radius: 5px;" 
+    data-aos="fade-up">
+    Learn More
+ </a>
+   </div>
 
   <!-- Right Side Carousel -->
   <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active" style="background-image: url('assets/img/hero-carousel/hero-carousel-1.jpg');"></div>
-      <div class="carousel-item" style="background-image: url('assets/img/hero-carousel/att1.jpg');"></div>
+      <div class="carousel-item active" style="background-image: url('assets/img/hero-carousel/att1.jpg');"></div>
+      <div class="carousel-item" style="background-image: url('assets/img/hero-carousel/hero-carousel-1.jpg');"></div>
       <div class="carousel-item" style="background-image: url('assets/img/hero-carousel/att2.jpg');"></div>
       <div class="carousel-item" style="background-image: url('assets/img/hero-carousel/att3.jpg');"></div>
       <div class="carousel-item" style="background-image: url('assets/img/hero-carousel/att4.jpg');"></div>
@@ -115,13 +117,14 @@
   background-size: cover; /* Ensures the image covers the entire section */
   background-position: center center; /* Centers the image in the section */
   background-repeat: no-repeat; /* Prevents the image from repeating */
-  flex-wrap: wrap;
+  
 }
 
   
 .hero-text {
   width: 50%;
   max-width: 600px;
+ 
   margin-left: 9%; /* Adjust this value to move it slightly to the right */
   transition: all 0.3s ease; /* Smooth transition for responsiveness */
 }
@@ -130,6 +133,7 @@
   .hero-text {
     width: 70%; /* Make it wider on smaller screens */
     margin-left: 5%; /* Adjust the left margin for medium-sized screens */
+    padding-top: 20%;
   }
 }
 
@@ -137,6 +141,7 @@
   .hero-text {
     width: 90%; /* Almost full width on smaller screens */
     margin-left: 0%; /* Remove left margin for small screens */
+    padding-top: 30%;
   }
 }
 
@@ -188,14 +193,15 @@
       height: 40px;
     }
   
+    
     /* Responsive Design */
     @media (max-width: 992px) {
-      .hero-section {
-        flex-direction: column;
-        text-align: center;
-        height: auto;
-        padding-top: 200px; 
-      }
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    height: 100vh; /* Keep full height to avoid pushing content */
+    padding-top: 50px; /* Reduce padding */
+  }
   
       .hero-text {
         width: 100%;
